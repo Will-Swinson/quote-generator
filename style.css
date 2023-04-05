@@ -1,0 +1,99 @@
+body {
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  text-align: center;
+  background: url(images/background.jpg) no-repeat center center/ cover;
+}
+
+.container {
+  width: 550px;
+  height: 450px;
+}
+
+.quote-title {
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 10;
+}
+.quote-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.blockquote-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  box-shadow: 0 0 10;
+  border-radius: 3px;
+}
+
+.blockquote-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+}
+
+.person-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.person-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  box-shadow: 0 0 10;
+  border-radius: 3px;
+}
+
+.quote-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.quote-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 70px;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  box-shadow: 0 0 10;
+  cursor: pointer;
+}
